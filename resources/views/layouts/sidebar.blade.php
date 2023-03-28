@@ -7,7 +7,7 @@
         <div class="sidebar">
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="public/{{$user->profile}}" class="img-circle elevation-2" alt="User Image">
+                <img src="/public/img/<?php echo($user->profile); ?>" class="img-circle elevation-2" alt="User Image">
             </div>
                 <div class="info">
                     <a href="#" class="d-block">{{ $user->name }}</a>

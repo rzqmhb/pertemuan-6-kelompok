@@ -23,13 +23,12 @@ class UserSeeder extends Seeder
                 'email' => 'roziqmahbubi22@gmail.com',
                 'password' => Hash::make('inipassword'),
             ],
-            // [
-            //     'username' => '',
-            //     'name' => '',
-            //     'email' => '',
-            //     'password' => Hash::make(''),
-            //     'profile_pic' => ''
-            // ]
+            [
+                'username' => 'dv.andini',
+                'name' => 'Devi Andini Febrianti',
+                'email' => 'dv.andinifebrianti@gmail.com',
+                'password' => Hash::make('password')
+            ]
         ];
         DB::table('users')->insert($data);
     }
